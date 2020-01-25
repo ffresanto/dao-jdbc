@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9fbb6cc-38f9-449e-b788-57a47d9eb6a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/model/dao/SellerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/SellerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/java-libs/jdbc-connectors/mysql-connector-java-5.1.48.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,7 +98,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579742782329</updated>
-      <workItem from="1579742798494" duration="2327000" />
+      <workItem from="1579742798494" duration="2629000" />
+      <workItem from="1579907049152" duration="4759000" />
     </task>
     <servers />
   </component>
@@ -110,29 +115,53 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1579745192856" />
-    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1579742902230">
+    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1579971125114">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579742902230" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1579744492056">
+    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579971125114" />
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1579971168570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579744492056" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1579744492056">
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579971168570" />
+    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1579971168570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579744492056" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1579744492055">
+    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579971168570" />
+    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1579971168569">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579744492055" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1579744492056">
+    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579971168569" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1579971168570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579744492056" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1579742911152">
+    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579971168570" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1579971144843">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579742911152" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579971144843" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1579970332157">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1579970332157" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java</url>
+          <line>38</line>
+          <properties class="model.dao.impl.SellerDaoJDBC" method="findById">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/db/DB.java</url>
+          <line>13</line>
+          <properties field="conn" class="db.DB" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
